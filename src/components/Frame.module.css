@@ -1,0 +1,20 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  padding: 25px;
+  position: relative;
+
+  canvas {
+    background-color: black;
+  }
+
+  .date {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    color: #ffbf00;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    z-index: 10;
+  }
+}
