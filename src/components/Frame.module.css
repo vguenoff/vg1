@@ -4,10 +4,6 @@
   padding: 3%;
   position: relative;
 
-  canvas {
-    background-color: black;
-  }
-
   .date {
     position: absolute;
     top: 5%;
@@ -17,4 +13,8 @@
     font-weight: bold;
     z-index: 10;
   }
+}
+
+.main canvas {
+  background-color: black;
 }
