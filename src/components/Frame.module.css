@@ -1,13 +1,13 @@
 .main {
   width: 100vw;
   height: 100vh;
-  padding: 3%;
+  padding: 10px;
   position: relative;
 
   .date {
     position: absolute;
-    top: 5%;
-    right: 5%;
+    top: 20px;
+    right: 20px;
     color: #ffbf00;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
