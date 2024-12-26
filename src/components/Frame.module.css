@@ -1,7 +1,7 @@
 .main {
   width: 100vw;
   height: 100vh;
-  padding: 25px;
+  padding: 3%;
   position: relative;
 
   canvas {
@@ -10,8 +10,8 @@
 
   .date {
     position: absolute;
-    top: 35px;
-    right: 35px;
+    top: 5%;
+    right: 5%;
     color: #ffbf00;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
