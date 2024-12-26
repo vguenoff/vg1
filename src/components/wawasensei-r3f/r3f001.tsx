@@ -5,7 +5,7 @@ import { OrbitControls } from '@react-three/drei'
 
 export default function R3f001() {
   return (
-    <Canvas camera={{ position: [1, 2, 3] }}>
+    <Canvas camera={{ position: [1, 1, 2] }}>
       <OrbitControls />
       <mesh>
         <boxGeometry />
