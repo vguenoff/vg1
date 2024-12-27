@@ -2,6 +2,7 @@
 import { Canvas } from '@react-three/fiber'
 
 import { OrbitControls } from '@react-three/drei'
+import * as THREE from 'three'
 
 export default function R3f001() {
   return (
@@ -11,7 +12,7 @@ export default function R3f001() {
       <directionalLight position={[0, 3, 5]} intensity={0.5} />
 
       <group rotation-x={Math.PI / 4} position={[0, -1, 1]}>
-        <mesh position-x={1}>
+        <mesh position-x={1} rotation={[THREE.MathUtils.degToRad(45), 0, 0]}>
           <boxGeometry />
           <meshStandardMaterial color="red" />
         </mesh>
@@ -19,7 +20,7 @@ export default function R3f001() {
           <boxGeometry />
           <meshStandardMaterial color="blue" />
         </mesh>
-        <mesh position={[-1, 0, 0]}>
+        <mesh position={[-1, 0, 0]} rotation-x={THREE.MathUtils.degToRad(45)}>
           <boxGeometry />
           <meshStandardMaterial color="green" />
         </mesh>
